@@ -41,6 +41,6 @@ random.shuffle(new_password)
 
 pass1 = " "
 
-for pass in new_password:
-  pass1 += pass
+for newpass in new_password:
+  pass1 += newpass
 print(f"Your new password is {pass1}.")
